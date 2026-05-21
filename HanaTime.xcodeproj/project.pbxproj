@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52F3CD227E5841A7A6F57332 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F9B09BAB44B6897B9101E /* Models.swift */; };
+		5E260A9764034EAEB5220242 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F79F2A854DD6827CB39B /* MapView.swift */; };
+		8321F93331FB48BFBB5BD6F1 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972480C93030494088C2B0AE /* Components.swift */; };
+		8DA51A0C311045969B14FAE0 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F032C302604A7AA853294B /* FavoritesView.swift */; };
+		9075613916A841CD996F7164 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96D25E1883A46C18F7F4AE5 /* DataService.swift */; };
+		9B309FC957984729B533E3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38F3A96E7A1436487595C5E /* Assets.xcassets */; };
+		B3C286B5197B42DABD5E0766 /* SpotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7946760BF72845FDADF23B52 /* SpotDetailView.swift */; };
+		BC63A19DA83D432E9AC440EC /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FF3E3CEAB54953B79BEEF0 /* DesignTokens.swift */; };
+		CDED8B8334034A589E8FF97C /* HanaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B728E3612D42269FA61E35 /* HanaTimeApp.swift */; };
+		CFC6FE2FAD9B408594656D5C /* OfflineCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DD4410CB4E4DAC8A3F45E3 /* OfflineCacheService.swift */; };
+		D31EB5F247FA4C8B8995B322 /* FrontlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF5AE42A6B44F7953E890F /* FrontlineView.swift */; };
+		D4573AF85C5747FA87BCFD25 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5AAC8F6BA41C3A1233F85 /* LocationService.swift */; };
+		ECDDE0F650884674B273DE0A /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F751419FFF34753BAC83647 /* OfflineView.swift */; };
+		F3B12B28FC364489A6E60893 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C03073E42294005BFF62BC9 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4B2E1563BA41FD8E9F8CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F751419FFF34753BAC83647 /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
+		2C7F9B09BAB44B6897B9101E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		49FF5AE42A6B44F7953E890F /* FrontlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontlineView.swift; sourceTree = "<group>"; };
+		56B728E3612D42269FA61E35 /* HanaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanaTimeApp.swift; sourceTree = "<group>"; };
+		72F032C302604A7AA853294B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		77C5AAC8F6BA41C3A1233F85 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		7946760BF72845FDADF23B52 /* SpotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailView.swift; sourceTree = "<group>"; };
+		7C03073E42294005BFF62BC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81DD4410CB4E4DAC8A3F45E3 /* OfflineCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacheService.swift; sourceTree = "<group>"; };
+		972480C93030494088C2B0AE /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9A96F79F2A854DD6827CB39B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A38F3A96E7A1436487595C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* HanaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96D25E1883A46C18F7F4AE5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C9FF3E3CEAB54953B79BEEF0 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159130D1AC2E4A4D8B0A7F09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C03073E42294005BFF62BC9 /* ContentView.swift */,
+				9A96F79F2A854DD6827CB39B /* MapView.swift */,
+				7946760BF72845FDADF23B52 /* SpotDetailView.swift */,
+				49FF5AE42A6B44F7953E890F /* FrontlineView.swift */,
+				72F032C302604A7AA853294B /* FavoritesView.swift */,
+				1F751419FFF34753BAC83647 /* OfflineView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A020BA96EB9F48FFBD8DB694 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B96D25E1883A46C18F7F4AE5 /* DataService.swift */,
+				77C5AAC8F6BA41C3A1233F85 /* LocationService.swift */,
+				81DD4410CB4E4DAC8A3F45E3 /* OfflineCacheService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000004 /* HanaTime */,
+				AA000000000000000000000F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000004 /* HanaTime */ = {
+			isa = PBXGroup;
+			children = (
+				56B728E3612D42269FA61E35 /* HanaTimeApp.swift */,
+				159130D1AC2E4A4D8B0A7F09 /* Views */,
+				E619625CA6CE48A19FBFC478 /* Models */,
+				A020BA96EB9F48FFBD8DB694 /* Services */,
+				C6BA05F269E545B1A3AA3BD6 /* Components */,
+				A38F3A96E7A1436487595C5E /* Assets.xcassets */,
+				1B4B2E1563BA41FD8E9F8CBF /* Info.plist */,
+			);
+			path = HanaTime;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000005 /* HanaTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6BA05F269E545B1A3AA3BD6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C9FF3E3CEAB54953B79BEEF0 /* DesignTokens.swift */,
+				972480C93030494088C2B0AE /* Components.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E619625CA6CE48A19FBFC478 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C7F9B09BAB44B6897B9101E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000003 /* HanaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000000000000000000000E /* Build configuration list for PBXNativeTarget "HanaTime" */;
+			buildPhases = (
+				AA0000000000000000000006 /* Sources */,
+				AA0000000000000000000007 /* Resources */,
+				AA0000000000000000000008 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanaTime;
+			productName = HanaTime;
+			productReference = AA0000000000000000000005 /* HanaTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					AA0000000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000000000000000000000D /* Build configuration list for PBXProject "HanaTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh_CN,
+			);
+			mainGroup = AA0000000000000000000001;
+			productRefGroup = AA000000000000000000000F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000003 /* HanaTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B309FC957984729B533E3A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDED8B8334034A589E8FF97C /* HanaTimeApp.swift in Sources */,
+				F3B12B28FC364489A6E60893 /* ContentView.swift in Sources */,
+				5E260A9764034EAEB5220242 /* MapView.swift in Sources */,
+				B3C286B5197B42DABD5E0766 /* SpotDetailView.swift in Sources */,
+				D31EB5F247FA4C8B8995B322 /* FrontlineView.swift in Sources */,
+				8DA51A0C311045969B14FAE0 /* FavoritesView.swift in Sources */,
+				ECDDE0F650884674B273DE0A /* OfflineView.swift in Sources */,
+				52F3CD227E5841A7A6F57332 /* Models.swift in Sources */,
+				9075613916A841CD996F7164 /* DataService.swift in Sources */,
+				D4573AF85C5747FA87BCFD25 /* LocationService.swift in Sources */,
+				CFC6FE2FAD9B408594656D5C /* OfflineCacheService.swift in Sources */,
+				BC63A19DA83D432E9AC440EC /* DesignTokens.swift in Sources */,
+				8321F93331FB48BFBB5BD6F1 /* Components.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7SN8RQ38JP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7SN8RQ38JP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HanaTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hana.HanaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HanaTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hana.HanaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000000000000000000000D /* Build configuration list for PBXProject "HanaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000009 /* Debug */,
+				AA000000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000000000000000000000E /* Build configuration list for PBXNativeTarget "HanaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000000000000000000000B /* Debug */,
+				AA000000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000002 /* Project object */;
+}
