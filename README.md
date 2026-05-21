@@ -5,7 +5,7 @@
 <div align="center">
  <img width="883" height="1920" alt="20260521140957" src="https://github.com/user-attachments/assets/95fd2150-d1e5-44a8-9b12-6f625623b114" />
   
-[iOS版本](https://github.com/kemomi/SakuraTime/tree/main)
+[iOS版本](https://github.com/kemomi/SakuraTime/tree/iOS)
 
 </div>
 
